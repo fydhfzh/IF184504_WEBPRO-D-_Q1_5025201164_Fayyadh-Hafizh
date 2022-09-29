@@ -1,0 +1,47 @@
+.hometown {
+  height: 102vh;
+  width: 50%;
+  margin-left: 12.5em;
+  color: rgb(215, 203, 203);
+  font-size: 30px;
+  font-weight: 500;
+  border: 0px;
+  padding: 2em;
+  border-left: 2px;
+  border-style: solid;
+  border-color: #14c38e;
+}
+
+.header {
+  background: linear-gradient(to right, #14c38e 30%, #00ffab);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+}
+
+.hometown ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.hometown ul li {
+  margin-right: 40px;
+}
+
+.description {
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.image img {
+  border-radius: 20px;
+  width: auto;
+  height: 250px;
+}
+
+p {
+  text-indent: 40px;
+  line-height: 1.2em;
+}
